@@ -1,0 +1,144 @@
+body{
+      margin: auto;
+     background-color: rgb(251, 249, 198);
+}
+
+.wrap {
+    max-width: 800px; /* 最大幅 */
+    background-color:
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header{ 
+        background-color: rgb(161, 81, 1);
+        block-size: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        justify-items: center
+        
+}
+
+.logo{
+     height: 150px;
+     width: 150px;
+     margin-top: auto;
+      
+}
+
+
+
+.introduce{
+    background-color: bisque;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    padding: 40px 40px;
+    color: blue;
+    border-radius: 30px 30px 30px; 
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover{
+    height:100%;
+    width: 100%;
+    
+}
+
+.coverimg{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 16px;
+    width: 80%;
+    height: 95%;
+}
+
+.titel{
+    color: rgb(251, 69, 69);
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top:auto;
+    
+}
+
+.motto{ 
+    color: #ff0000;  
+    padding-left: 45em;
+    font-style: italic;
+    font-size: 16px;
+    margin-top:auto;
+    padding-top:0%;
+}
+
+
+.woker{
+    background-color: bisque;
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    padding: 40px 40px;    
+    border-radius: 30px 30px 30px; 
+}
+  
+
+.wokerpart1{
+    display: flex;
+    gap: 2em;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+
+.wokerpart2 {
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+}
+
+.wokertetil{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(255, 98, 0);
+    
+} 
+
+.wokerimg{
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
+.selling{
+    background-color:bisque ;
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    padding: 40px 40px;    
+    border-radius: 30px 30px 30px;     
+}
+
+.footer{
+    background-color: rgb(161, 81, 1);
+        block-size: 100%;
+        padding: 30px 40px;
+        margin-bottom: 1em;
+        font-weight: bold;
+        font-size: x-small;
+        text-align: right;
+}
